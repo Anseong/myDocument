@@ -1,9 +1,102 @@
-<mxfile host="app.diagrams.net" modified="2023-05-30T02:18:36.555Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" version="21.3.5" etag="JIlrkoO3JEu1ZwL0Cz8-" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-01T06:31:29.098Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/113.0.0.0 Safari/537.36" etag="F8vUbS7aGZ-ipuXAzBsW" version="21.3.5" type="github">
   <diagram name="第 1 页" id="LawWgK8LptCG1bEpwGKl">
-    <mxGraphModel>
+    <mxGraphModel dx="2084" dy="1949" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.561;entryY=0.993;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wJf__0uZPB3d7Mr6W0F3-8" target="wJf__0uZPB3d7Mr6W0F3-15">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="380" />
+              <mxPoint x="-5" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.536;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wJf__0uZPB3d7Mr6W0F3-8" target="wJf__0uZPB3d7Mr6W0F3-18">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="210" y="380" />
+              <mxPoint x="416" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-8" value="jifen.order_info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="440" width="200" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-9" value="+ jifenProductId=农行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-8">
+          <mxGeometry y="26" width="200" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-10" value="+ goodsBusinessId=微信&lt;br&gt;+ goodsProductId=微信产品id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-8">
+          <mxGeometry y="52" width="200" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.415;entryY=1.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wJf__0uZPB3d7Mr6W0F3-13" target="wJf__0uZPB3d7Mr6W0F3-29">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="wJf__0uZPB3d7Mr6W0F3-13" target="wJf__0uZPB3d7Mr6W0F3-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-13" value="jifen.order_info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-100" y="180" width="170" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-14" value="+ jifenProductId=农行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-13">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-15" value="+ goodsBusinessId=互链&lt;br&gt;+ goodsProductId=互链产品id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-13">
+          <mxGeometry y="52" width="170" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="wJf__0uZPB3d7Mr6W0F3-16">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="350" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-39" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.291;entryY=1.026;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wJf__0uZPB3d7Mr6W0F3-16" target="wJf__0uZPB3d7Mr6W0F3-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-16" value="jifen.order_info" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="180" width="180" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-17" value="+ jifenProductId=微能" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-16">
+          <mxGeometry y="26" width="180" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-18" value="+ goodsBusinessId=微信&lt;br&gt;+ goodsProductId=微信产品id" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-16">
+          <mxGeometry y="52" width="180" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-21" value="settle.finance_purchase_bill" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="-20" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-22" value="+ goodsBusinessId=互链" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-21">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-23" value="+ purchaseContractId=互链" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-21">
+          <mxGeometry y="52" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-24" value="settle.finance_sale_bill" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-20" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-25" value="+ jifenProductId=微能" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-24">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-26" value="+ contractId=微能业务合同" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-24">
+          <mxGeometry y="52" width="170" height="38" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-27" value="settle.finance_sale_bill" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-220" y="-20" width="170" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-28" value="+ jifenProductId=农行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-27">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-29" value="+ contractId=农行" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-27">
+          <mxGeometry y="52" width="170" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-35" value="settle.finance_purchase_bill" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="-20" width="170" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-36" value="+ goodsBusinessId=微信" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-35">
+          <mxGeometry y="26" width="170" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="wJf__0uZPB3d7Mr6W0F3-37" value="+ purchaseContractId=微信采购合同" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="wJf__0uZPB3d7Mr6W0F3-35">
+          <mxGeometry y="52" width="170" height="38" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
