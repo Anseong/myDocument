@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2023-06-02T08:02:21.087Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.3.6" etag="V3gAyaJdl9o5B2ltyL-x" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-03T13:42:21.810Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="5kIiItjospqCM8fbm-lw" version="21.3.6" type="github">
   <diagram name="第 1 页" id="1_S_TI26dAkAbEfhSLB5">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="KWCue2gvfJKScfYQxguB-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="KWCue2gvfJKScfYQxguB-1" target="KWCue2gvfJKScfYQxguB-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCue2gvfJKScfYQxguB-1" value="T天下载数据" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="170" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCue2gvfJKScfYQxguB-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWCue2gvfJKScfYQxguB-4" target="KWCue2gvfJKScfYQxguB-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCue2gvfJKScfYQxguB-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="KWCue2gvfJKScfYQxguB-4" target="KWCue2gvfJKScfYQxguB-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCue2gvfJKScfYQxguB-4" value="创建下载请求" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="170" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCue2gvfJKScfYQxguB-5" value="扫描下载请求" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="170" y="400" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KWCue2gvfJKScfYQxguB-6" value="保存下载任务(初始)" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="370" y="290" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
