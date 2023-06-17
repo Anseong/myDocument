@@ -1,9 +1,35 @@
-<mxfile host="app.diagrams.net" modified="2023-06-17T06:25:56.230Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.4.0" etag="VYv8ZxPROJmUray9Y3Ii" type="github">
+<mxfile host="app.diagrams.net" modified="2023-06-17T07:07:43.352Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="ggsp3t0cbnmogQKLF6Vl" version="21.4.0" type="github">
   <diagram name="第 1 页" id="YY6hw1jYbhnvYqQVyaoU">
-    <mxGraphModel>
+    <mxGraphModel dx="1194" dy="741" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="7RUz3fd9Rj0Hcd5UzW2a-6" value="hedge_config" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=50;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;arcSize=4;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="60" width="170" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="7RUz3fd9Rj0Hcd5UzW2a-7" value="start_time 开始时间&amp;nbsp;&lt;br&gt;end_time&amp;nbsp; 结束时间" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;html=1;" vertex="1" parent="7RUz3fd9Rj0Hcd5UzW2a-6">
+          <mxGeometry y="50" width="170" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="7RUz3fd9Rj0Hcd5UzW2a-8" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="320" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7RUz3fd9Rj0Hcd5UzW2a-9" value="erpadmin" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="450" y="320" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7RUz3fd9Rj0Hcd5UzW2a-10" value="finance服务" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="710" y="320" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7RUz3fd9Rj0Hcd5UzW2a-11" value="前端页面" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="1">
+          <mxGeometry x="150" y="320" width="100" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="7RUz3fd9Rj0Hcd5UzW2a-13" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;edgeStyle&quot;:&quot;elbowEdgeStyle&quot;,&quot;elbow&quot;:&quot;vertical&quot;,&quot;curved&quot;:0,&quot;rounded&quot;:0};" vertex="1" parent="7RUz3fd9Rj0Hcd5UzW2a-11">
+          <mxGeometry x="45" y="100" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="7RUz3fd9Rj0Hcd5UzW2a-14" value="dispatch" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=block;startSize=8;edgeStyle=elbowEdgeStyle;elbow=vertical;curved=0;rounded=0;" edge="1" target="7RUz3fd9Rj0Hcd5UzW2a-13" parent="7RUz3fd9Rj0Hcd5UzW2a-11">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-100" y="100" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
