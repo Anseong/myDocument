@@ -1,9 +1,21 @@
-<mxfile host="app.diagrams.net" modified="2023-07-19T07:11:43.958Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" version="21.5.1" etag="kpFxbC1yYHGnMMQOoeZc" type="github">
+<mxfile host="app.diagrams.net" modified="2023-07-19T10:08:59.788Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/114.0.0.0 Safari/537.36" etag="v4kmB4QcGhf1gXZdRD1g" version="21.5.1" type="github">
   <diagram name="第 1 页" id="mcftxhT0yvvc1qlR4rh5">
-    <mxGraphModel>
+    <mxGraphModel dx="1174" dy="721" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="e7mO76Mi_cVMMIp3Ff4T-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="e7mO76Mi_cVMMIp3Ff4T-1" target="e7mO76Mi_cVMMIp3Ff4T-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="e7mO76Mi_cVMMIp3Ff4T-1" value="沉淀计算" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="20" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7mO76Mi_cVMMIp3Ff4T-2" value="查询符合条件的卡券" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="310" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="e7mO76Mi_cVMMIp3Ff4T-25" value="&lt;ul&gt;&lt;li&gt;T-1天过期且卡券未作废采购合同商品是使用结算&lt;/li&gt;&lt;li&gt;T-1天过期且卡券作废特殊供应商且采购合同商品是使用结算的&lt;/li&gt;&lt;/ul&gt;" style="text;strokeColor=none;fillColor=none;html=1;whiteSpace=wrap;verticalAlign=middle;overflow=hidden;" vertex="1" parent="1">
+          <mxGeometry x="430" y="140" width="250" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
