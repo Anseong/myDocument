@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T09:53:14.941Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="StLYlXgqmYlpVqmB-xUX" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T10:05:11.167Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="_dp0kQag0SHhia-R9WIj" version="24.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="5329" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -674,7 +674,7 @@
         <mxCell id="2OsWfhqXqFlylCH4l19Q-147" value="通用步骤组装" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1620" y="-599" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="2OsWfhqXqFlylCH4l19Q-150" value="普通订单结算（含电影票）、实物订单、充值系统 相同" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="2OsWfhqXqFlylCH4l19Q-150" value="普通订单结算（含电影票）、实物订单、充值系统 、零售退货相同" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-1790" y="-70" width="120" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2OsWfhqXqFlylCH4l19Q-172" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OsWfhqXqFlylCH4l19Q-155" target="2OsWfhqXqFlylCH4l19Q-171">
@@ -702,7 +702,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="2OsWfhqXqFlylCH4l19Q-155" value="判断结算方式是否发生变动" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-3040" y="-10" width="80" height="80" as="geometry" />
+          <mxGeometry x="-3510" y="-15" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="2OsWfhqXqFlylCH4l19Q-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="2OsWfhqXqFlylCH4l19Q-160" target="2OsWfhqXqFlylCH4l19Q-129">
           <mxGeometry relative="1" as="geometry" />
@@ -723,19 +723,19 @@
           <mxGeometry x="-2080" y="-130" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2OsWfhqXqFlylCH4l19Q-171" value="组装任务步骤" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-3060" y="160" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3530" y="155" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OsWfhqXqFlylCH4l19Q-174" value="detail_type=4,business_detail_type=1&amp;nbsp;&lt;div&gt;detail_type=6 business_detail_type=2&lt;/div&gt;&lt;div&gt;detail_type=3,business_detail_type=2&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-2850" y="185" width="60" height="30" as="geometry" />
+        <mxCell id="2OsWfhqXqFlylCH4l19Q-174" value="detail_type=4,business_detail_type=3&amp;nbsp;&lt;div&gt;detail_type=6 business_detail_type=2&lt;/div&gt;&lt;div&gt;detail_type=3,business_detail_type=2&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-3320" y="180" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="2OsWfhqXqFlylCH4l19Q-175" value="返回错误信息" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-3060" y="-160" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3530" y="-165" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="2OsWfhqXqFlylCH4l19Q-178" value="组装任务步骤" style="whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;shadow=0;strokeWidth=1;spacing=6;spacingTop=-4;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-3330" width="120" height="60" as="geometry" />
+          <mxGeometry x="-3800" y="-5" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="2OsWfhqXqFlylCH4l19Q-181" value="detail_type=4,business_detail_type=1&amp;nbsp;&lt;div&gt;detail_type=6 business_detail_type=2&lt;/div&gt;&lt;div&gt;detail_type=3,business_detail_type=2&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="-3490" y="20" width="60" height="30" as="geometry" />
+        <mxCell id="2OsWfhqXqFlylCH4l19Q-181" value="detail_type=4,business_detail_type=3&lt;div&gt;detail_type=6 business_detail_type=3&lt;/div&gt;&lt;div&gt;detail_type=3,business_detail_type=3&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-3960" y="15" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
