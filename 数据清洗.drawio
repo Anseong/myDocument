@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-09T10:06:42.549Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="KRqQcq85AKtNcGQ-c2BB" version="24.3.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-09T11:10:35.457Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="P-K4Ky3GPdBn8NxHYkKJ" version="24.3.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4610" dy="1900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-3" value="查询待清洗的任务" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
-          <mxGeometry x="-80" y="80" width="120" height="40" as="geometry" />
+          <mxGeometry x="-80" y="-50" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-4" value="采购" style="rounded=0;html=1;jettySize=auto;orthogonalLoop=1;fontSize=11;endArrow=block;endFill=0;endSize=8;strokeWidth=1;shadow=0;labelBackgroundColor=none;edgeStyle=orthogonalEdgeStyle;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WIyWlLk6GJQsqaUBKTNV-6" target="WIyWlLk6GJQsqaUBKTNV-10" edge="1">
           <mxGeometry x="-0.1714" relative="1" as="geometry">
@@ -736,6 +736,9 @@
         </mxCell>
         <mxCell id="2OsWfhqXqFlylCH4l19Q-181" value="detail_type=4,business_detail_type=3&lt;div&gt;detail_type=6 business_detail_type=3&lt;/div&gt;&lt;div&gt;detail_type=3,business_detail_type=3&amp;nbsp;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="-3080" y="20" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="2OsWfhqXqFlylCH4l19Q-182" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="-2020" y="2150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
