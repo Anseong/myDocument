@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-05-14T06:49:10.021Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="nZJwT31lefyGC_jaZLmE" version="24.4.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-05-14T07:04:35.880Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 Safari/537.36" etag="O-n5r2937hllsBGA4Jg4" version="24.4.0" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="4482" dy="1880" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -833,6 +833,70 @@
         </mxCell>
         <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-31" value="根据变更的信息、生效时间 插入对应的采购合同商品变动记录，并同步修改采购合同商品的信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="70" y="2370" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rU2XXzaS7Wc4F8_XeJIQ-35" target="rU2XXzaS7Wc4F8_XeJIQ-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-35" value="解绑对账单、红冲账单绑定对账单" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="3180" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rU2XXzaS7Wc4F8_XeJIQ-36" target="rU2XXzaS7Wc4F8_XeJIQ-38">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-40" value="存在且在关账期内" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rU2XXzaS7Wc4F8_XeJIQ-39">
+          <mxGeometry x="-0.2642" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-42" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rU2XXzaS7Wc4F8_XeJIQ-36" target="rU2XXzaS7Wc4F8_XeJIQ-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-43" value="存在且不在关账期内" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="rU2XXzaS7Wc4F8_XeJIQ-42">
+          <mxGeometry x="-0.18" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-36" value="根据对账单查询是否存在差异账单" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="434" y="3310" width="80" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rU2XXzaS7Wc4F8_XeJIQ-38" target="rU2XXzaS7Wc4F8_XeJIQ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-38" value="生成差异商品的红冲账单，绑定对账单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="3330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rU2XXzaS7Wc4F8_XeJIQ-41" target="rU2XXzaS7Wc4F8_XeJIQ-44">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-41" value="删除差异商品的账单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="414" y="3510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rU2XXzaS7Wc4F8_XeJIQ-44" target="rU2XXzaS7Wc4F8_XeJIQ-46">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-44" value="查询对账单未处理的账单信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="640" y="3510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rU2XXzaS7Wc4F8_XeJIQ-46" target="rU2XXzaS7Wc4F8_XeJIQ-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-46" value="解绑不需要处理的账单信息" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="820" y="3510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-51" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rU2XXzaS7Wc4F8_XeJIQ-48" target="rU2XXzaS7Wc4F8_XeJIQ-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-48" value="查询已经处理的账单被删除掉的解绑对账单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="990" y="3510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="rU2XXzaS7Wc4F8_XeJIQ-50" target="rU2XXzaS7Wc4F8_XeJIQ-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-50" value="查询新增的红冲的账单绑定对账单" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1150" y="3510" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rU2XXzaS7Wc4F8_XeJIQ-52" value="删除对账单的分账单、对账单分项，触发重新汇算" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1330" y="3510" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
