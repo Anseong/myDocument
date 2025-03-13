@@ -60,6 +60,15 @@
         <mxCell id="J_SCniiIOk3CN0rLdy25-160" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="J_SCniiIOk3CN0rLdy25-134" source="J_SCniiIOk3CN0rLdy25-137" target="J_SCniiIOk3CN0rLdy25-138">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-207" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="J_SCniiIOk3CN0rLdy25-134" source="J_SCniiIOk3CN0rLdy25-205" target="J_SCniiIOk3CN0rLdy25-206">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-205" value="执行出票操作" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-134">
+          <mxGeometry x="20" y="1992" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-206" value="出票成功？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-134">
+          <mxGeometry x="40" y="2122" width="80" height="80" as="geometry" />
+        </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-144" value="微能服务" style="swimlane;fontStyle=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="320" y="40" width="180" height="2500" as="geometry" />
         </mxCell>
@@ -84,8 +93,20 @@
         <mxCell id="J_SCniiIOk3CN0rLdy25-171" value="生成支付链接（改签中）" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
           <mxGeometry x="40" y="1654" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-203" value="通知供应商改签订单支付成功" style="whiteSpace=wrap;html=1;fillColor=#DAE8FC;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
+          <mxGeometry x="8" y="1992" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-208" value="出票失败（改签失败）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
+          <mxGeometry x="20" y="2132" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-212" value="出票成功（改签成功）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
+          <mxGeometry x="20" y="2312" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-216" value="改签成功" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
+          <mxGeometry x="40" y="1432" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-149" value="渠道服务" style="swimlane;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="480" y="64" width="164" height="2500" as="geometry" />
+          <mxGeometry x="500" y="40" width="164" height="2500" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-150" value="通知支付成功" style="shape=cloud;fillColor=#DAE8FC;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
           <mxGeometry x="44" y="344" width="120" height="60" as="geometry" />
@@ -98,6 +119,12 @@
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-190" value="通知支付成功" style="shape=cloud;fillColor=#DAE8FC;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
           <mxGeometry x="28" y="1992" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-210" value="出票失败（改签失败、退款）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
+          <mxGeometry x="40" y="2132" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-214" value="出票成功（改签成功）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
+          <mxGeometry x="40" y="2312" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-131" target="J_SCniiIOk3CN0rLdy25-135">
           <mxGeometry relative="1" as="geometry" />
@@ -175,6 +202,28 @@
             <mxPoint x="48.000000000000114" y="1951.998" as="sourcePoint" />
             <mxPoint x="564.4399999999999" y="2062.4500000000003" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-204" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-190" target="J_SCniiIOk3CN0rLdy25-203">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-209" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-206" target="J_SCniiIOk3CN0rLdy25-208">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-211" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-208" target="J_SCniiIOk3CN0rLdy25-210">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-213" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-206" target="J_SCniiIOk3CN0rLdy25-212">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="240" y="2446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-215" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-212" target="J_SCniiIOk3CN0rLdy25-214">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-142" target="J_SCniiIOk3CN0rLdy25-216">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
