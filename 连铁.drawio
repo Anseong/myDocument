@@ -106,7 +106,7 @@
           <mxGeometry x="40" y="1432" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-149" value="渠道服务" style="swimlane;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="500" y="40" width="164" height="2500" as="geometry" />
+          <mxGeometry x="500" y="40" width="180" height="2500" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-150" value="通知支付成功" style="shape=cloud;fillColor=#DAE8FC;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
           <mxGeometry x="44" y="344" width="120" height="60" as="geometry" />
@@ -125,6 +125,9 @@
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-214" value="出票成功（改签成功）" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
           <mxGeometry x="40" y="2312" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-218" value="改签成功，退款" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
+          <mxGeometry x="44" y="1432" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-131" target="J_SCniiIOk3CN0rLdy25-135">
           <mxGeometry relative="1" as="geometry" />
@@ -223,6 +226,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-217" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-142" target="J_SCniiIOk3CN0rLdy25-216">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-216" target="J_SCniiIOk3CN0rLdy25-218">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
