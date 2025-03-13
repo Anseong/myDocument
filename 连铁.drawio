@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="J_SCniiIOk3CN0rLdy25-130" value="用户" style="swimlane;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry y="40" width="160" height="2500" as="geometry" />
+          <mxGeometry y="40" width="160" height="3912" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-131" value="用户下单" style="rounded=1;whiteSpace=wrap;strokeWidth=2;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-130">
           <mxGeometry x="20" y="100" width="120" height="60" as="geometry" />
@@ -20,7 +20,7 @@
           <mxGeometry x="16" y="1834" width="120" height="56" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-134" value="供应商H5" style="swimlane;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="160" y="40" width="160" height="2500" as="geometry" />
+          <mxGeometry x="160" y="40" width="160" height="3912" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-136" value="跳转收银台" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-134">
           <mxGeometry x="20" y="200" width="120" height="60" as="geometry" />
@@ -69,8 +69,17 @@
         <mxCell id="J_SCniiIOk3CN0rLdy25-206" value="出票成功？" style="rhombus;whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-134">
           <mxGeometry x="40" y="2122" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-247" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="J_SCniiIOk3CN0rLdy25-134" source="J_SCniiIOk3CN0rLdy25-244" target="J_SCniiIOk3CN0rLdy25-246">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-244" value="用户退款" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-134">
+          <mxGeometry x="16" y="3184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-246" value="调用用户退款成功通知接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-134">
+          <mxGeometry x="16" y="3324" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-144" value="微能服务" style="swimlane;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="320" y="40" width="180" height="2500" as="geometry" />
+          <mxGeometry x="320" y="40" width="180" height="3912" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-145" value="生成支付链接" style="rounded=1;whiteSpace=wrap;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
           <mxGeometry x="34" y="100" width="120" height="60" as="geometry" />
@@ -105,8 +114,26 @@
         <mxCell id="J_SCniiIOk3CN0rLdy25-216" value="改签成功" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
           <mxGeometry x="40" y="1432" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-243" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="J_SCniiIOk3CN0rLdy25-144" source="J_SCniiIOk3CN0rLdy25-240" target="J_SCniiIOk3CN0rLdy25-242">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-240" value="生成退款单、退款" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
+          <mxGeometry x="20" y="3044" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-242" value="调用渠道退款通知接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
+          <mxGeometry x="20" y="3184" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-251" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="J_SCniiIOk3CN0rLdy25-144" source="J_SCniiIOk3CN0rLdy25-248" target="J_SCniiIOk3CN0rLdy25-250">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-248" value="渠道退款" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
+          <mxGeometry x="44" y="3324" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-250" value="调用用户退款成功通知接口" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-144">
+          <mxGeometry x="44" y="3464" width="120" height="60" as="geometry" />
+        </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-149" value="渠道服务" style="swimlane;fontStyle=1;align=center;" vertex="1" parent="1">
-          <mxGeometry x="500" y="40" width="180" height="2500" as="geometry" />
+          <mxGeometry x="500" y="40" width="196" height="3912" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-150" value="通知支付成功" style="shape=cloud;fillColor=#DAE8FC;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
           <mxGeometry x="44" y="344" width="120" height="60" as="geometry" />
@@ -128,6 +155,18 @@
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-218" value="改签成功，退款" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
           <mxGeometry x="44" y="1432" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-239" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="J_SCniiIOk3CN0rLdy25-149" source="J_SCniiIOk3CN0rLdy25-237" target="J_SCniiIOk3CN0rLdy25-238">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-237" value="用户针对出票成功的订单发起退票" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
+          <mxGeometry x="22" y="2904" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-238" value="调用&lt;span style=&quot;color: rgb(36, 91, 219); background-color: transparent;&quot;&gt;订单退款交互接口&lt;/span&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
+          <mxGeometry x="22" y="3044" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-252" value="记录用户退款成功" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="J_SCniiIOk3CN0rLdy25-149">
+          <mxGeometry x="44" y="3464" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-151" style="edgeStyle=orthogonalEdgeStyle;rounded=0;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-131" target="J_SCniiIOk3CN0rLdy25-135">
           <mxGeometry relative="1" as="geometry" />
@@ -229,6 +268,18 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="J_SCniiIOk3CN0rLdy25-219" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-216" target="J_SCniiIOk3CN0rLdy25-218">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-241" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-238" target="J_SCniiIOk3CN0rLdy25-240">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-245" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-242" target="J_SCniiIOk3CN0rLdy25-244">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-249" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-246" target="J_SCniiIOk3CN0rLdy25-248">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="J_SCniiIOk3CN0rLdy25-253" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="J_SCniiIOk3CN0rLdy25-250" target="J_SCniiIOk3CN0rLdy25-252">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
